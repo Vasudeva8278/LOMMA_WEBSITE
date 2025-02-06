@@ -17,7 +17,6 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 import HomeIcon from '@mui/icons-material/Home';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import InfoIcon from '@mui/icons-material/Info';
-import logo from '../Assets/LOGO.png'
 import '../css/Header.css';
 
 const drawerWidth = 240;
@@ -40,7 +39,7 @@ function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <img src={logo} alt="Logo" style={{ maxWidth: '100%', maxHeight: '100px', marginBottom: '16px' }} />
+      <img alt="Logo" style={{ maxWidth: '100%', maxHeight: '100px', marginBottom: '16px' }} />
       <Divider />
       <List>
         {navItems.map((item) => (
@@ -72,7 +71,7 @@ function DrawerAppBar(props) {
           >
             <MenuIcon sx={{color:'black'}}/>
           </IconButton>
-          <img src={logo} alt="Logo" style={{ maxWidth: '100%', maxHeight: '100px', marginBottom: '16px' }} />
+          <img alt="Logo" style={{ maxWidth: '100%', maxHeight: '100px', marginBottom: '16px' }} />
           <Box sx={{ display: { xs: 'none', sm: 'block' }, marginLeft:'auto',marginRight:'55px'}}>
             {navItems.map((item) => (
               <Button key={item.label} component={Link} to={item.path} sx={{ color: '#000',margin:'15px' }} className="nav-item">

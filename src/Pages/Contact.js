@@ -244,10 +244,10 @@ const ContactFormContainer = styled('div')(({ theme }) => ({
 const Contact = () => {
   const clients = [client1, client2, client3, client4, client5, client6];
   const clientNames = [
-    'Call Us<br /> Support: 0866-253-3477',
-    'Write Us<br /> info@lomaait.com',
-    'Visit Us<br /> Amaravathi, Guntur District, Andhra Pradesh',
-    'Tirupati<br />3rd Floor, IIDT Building, Airport Road, Renigunta, Tirupati (Dt) A.P<br /> Pin No:-517520.',
+    'Call Us<br /> Support: +91 XXXXXXXXXX',
+    'Write Us<br /> info@it.com',
+    'Visit Us<br /> USA,INDIA,UK',
+    'HYDREABAD<br />4th Floor, IIDT Building<br /> Pin No:-517520.',
     'New Jersey<br />2 Lee Court, Plainsboro, Princeton Meadows, New Jersey-08536.',
     'Australia<br />PO BOX 537, Cherrybrook LPO, Cherrybrook, New South Wales-2126',
   ];
@@ -277,13 +277,13 @@ const Contact = () => {
         <AdditionalBox>
           <Information variant="body2">Live Support</Information>
           <Description variant="body2">
-            Lomaa IT Solutions is a leading Web Development<br />
+            IT Solutions is a leading Web Development<br />
             Company, Mobile App Development Company, Digital<br />
             marketing company and a Branding Agency. It is based in <br />
-            Vijayawada, India with clients across the globe.
+            Hydreabad, India with clients across the globe.
           </Description>
           <CallUs variant="body2">
-            Call Us Now: &nbsp;<ContactNum>0866-253-3477 or...</ContactNum>
+            Call Us Now: &nbsp;<ContactNum>+91 XXXXXXXXXXor...</ContactNum>
           </CallUs>
           <StartChatButton>START CHAT NOW!</StartChatButton>
         </AdditionalBox>

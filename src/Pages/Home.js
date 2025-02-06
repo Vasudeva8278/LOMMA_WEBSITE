@@ -51,12 +51,13 @@ function Home() {
   return (
 
     <>
+    <div className="app-container">
       <div className={classes.sliderContainer}>
         <div className={classes.overlay}></div>
         <div className={classes.sliderContent}>
           <Typography variant='h4' className='classes.sliderMain'><b>WELCOME TO</b></Typography>
           <Typography variant="h2" className={classes.sliderTitle}>
-            LOMAA IT
+            IT SERVICES
           </Typography>
           <Typography variant="h4" className={classes.sliderSubtitle}>
             One Stop for All IT Services
@@ -76,6 +77,7 @@ function Home() {
       </div>
       <ServiceSection />
       <StepsSection/>
+      </div>
     </>
   );
 }
