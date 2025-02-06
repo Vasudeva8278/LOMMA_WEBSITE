@@ -51,7 +51,7 @@ const About = () => {
       
       <br/>
       <p>
-        "Lomaa IT Solutions is a product-based result-oriented
+        "IT Solutions is a product-based result-oriented
          custom software development company.<br/> Every time we upgrade
           things with the latest technologies to serve our clients
            a new kind of software<br/> technologies to resolve and function the business in a digital way"
@@ -76,7 +76,7 @@ const About = () => {
         >
           <DiamondIcon />
           <h1>Vision</h1>
-          <p>We are here in Vijayawada, with a lot<br /> of emerging IT sectors. By 2020, we will be <br /> one of the most booming companies in <br />Vijayawada with all high standard <br />corporative emerging IT sectors.</p>
+          <p>We are here in Hydreabad, with a lot<br /> of emerging IT sectors. By 2020, we will be <br /> one of the most booming companies in <br />Hydreabad with all high standard <br />corporative emerging IT sectors.</p>
         </animated.div>
         <animated.div
           style={icon3Props}
@@ -86,7 +86,7 @@ const About = () => {
         >
           <MiscellaneousServicesIcon />
           <h1>Mission</h1>
-          <p>Our company is built with success tactics <br />and strategies for the best growth of <br /> clients and their business who owe to <br />LOMAA.</p>
+          <p>Our company is built with success tactics <br />and strategies for the best growth of <br /> clients and their business who owe to it. <br /></p>
         </animated.div>
       </div>
       <br/><br/>
